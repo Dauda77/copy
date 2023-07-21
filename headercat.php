@@ -40,10 +40,7 @@
                         <a href="comment.php" class="list-link">comments</a>
                     </li>
                     <li class="list-item screen-lg-hidden">
-                        <a href="sign-in.php" class="list-link">Sign in</a>
-                    </li>
-                    <li class="list-item screen-lg-hidden">
-                        <a href="sign-up.php" class="list-link">Sign up</a>
+                        <a href="profile.php" class="list-link">Profile</a>
                     </li>
                 </ul>
             </div>
@@ -63,9 +60,8 @@
                     <i class="ri-close-line close-menu-icon"></i>
                 </button>
 
-                <a href="sign-in.php" class="list-link screen-sm-hidden">Sign in</a>
-                <a href="sign-up.php" class="btn sign-up-btn fancy-border screen-sm-hidden">
-                    <span>Sign up</span>
+                <a href="profile.php" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                    <span>Profile</span>
                 </a>
             </div>
 

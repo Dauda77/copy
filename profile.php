@@ -34,15 +34,10 @@ include("headerprofile.php")
         <li><a href="#">Edit Profile</a></li>
       </ul>
       </div>
-      <nav>
-        <!-- <ul>
-          <li><a href="#">Posts</a></li>
-          <li><a href="#">Followers</a></li>
-          <li><a href="#">Following</a></li>
-          <li><a href="#">Edit Profile</a></li>
-        </ul> -->
-      </nav>
     </div>
+    <form method="post" action="logout.php">
+  <input type="submit" class="disconnect" name="disconnect" value="Déconnexion"></input>
+  </form>
     <main class="mainee">
       <section class="sect">
         <h2>About</h2>

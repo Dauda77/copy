@@ -1,37 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SJTalkss</title>
-    <!-- Favicon -->
-    <link rel="icon" type="image/png" sizes="32x32" href="imgs\favicon-32x32.png">
-    <!-- Remix icons -->
-    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
-    <!-- Swiper.js styles -->
-    <!-- <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"/> -->
-    <!-- Custom styles -->
-    <link rel="stylesheet" href="news.css">
-    <script async src="news.js"></script>
-   <!--  -->
+<?php
+include("headopen.php")
+?>
 
+     <!--Section-->
+     <section class="hero" id="hero">
+        <div class="container">
+            <h2 class="sub-headline">
+                <span class="first-letter">W</span>elcome
+            </h2>
+            <h1 class="headline">Xcrème</h1>
+            <div class="headline-description">
+                <div class="separator">
+                    <div class="line line-left"></div>
+                    <div class="asterisk"><i class="fas fa-asterisk"></i></div>
+                    <div class="line line-right"></div>
+                </div>
+                <div class="single-animation">
+                    <h5>Ready to be opened</h5>
+                    <a href="#" class="btn cta-btn">Explore</a>
+                </div>
+ <!--First Section-->
+         <div class="hedy animate__animated animate__swing">
+        <ul>
+            <li class="signalup"><a href="signup.php">SIGN-UP</a></li>
+            <li class="signalin"><a href="signin.php">SIGN-IN</a></li>
+        </ul>
+</div> 
+            </div>
+        </div>
 
+       
 
-</head>
-<body>
-
-    <!-- <a href="home.php"> -->
-        <section class="heroo " id="hero">
-           <div class="open-heroo-a">
-           <h1 class="open-heroo-a-text "><span class="first-letter">W</span>elcome to</h1>
-           </div>
-           <div class="open-heroo-b"><h2 class="open-heroo-b-text">SJTalkss</h2></div>
-           <div class="magictime " id="heroSS">WADDUP AMIGOES</div>
-        </section>
-    <!-- </a> -->
+    </section>
+    
  
+</section>
 
 </body>
 </html>
-

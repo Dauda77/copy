@@ -1054,7 +1054,7 @@ body.light-theme{
     }
 }
 
-
+/* WEATHER */
 
 #weat {
     align-items: center;
@@ -1063,6 +1063,17 @@ body.light-theme{
   }
 
       
+
+  /* 
+   _____                                     _      _____  _____ _____ 
+  / ____|                                   | |    / ____|/ ____/ ____|
+ | |     ___  _ __ ___  _ __ ___   ___ _ __ | |_  | |    | (___| (___  
+ | |    / _ \| '_ ` _ \| '_ ` _ \ / _ \ '_ \| __| | |     \___ \\___ \ 
+ | |___| (_) | | | | | | | | | | |  __/ | | | |_  | |____ ____) |___) |
+  \_____\___/|_| |_| |_|_| |_| |_|\___|_| |_|\__|  \_____|_____/_____/ 
+                                                                       
+                                                                       
+  */
       .comie {
         display: flex;
         justify-content: center;
@@ -1186,5 +1197,266 @@ body.light-theme{
   
 
   
+
+  /* TRIAL START */
+
+  .container-profile {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 120px;
+  }
+  
+  .profile-head {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .profile-header {
+    margin-bottom: 20px;
+  }
+  
+  .profile-picture img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+  }
+  
+  .mainyy {
+    padding-top: 20px;
+  }
+  section {
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+  } */
+  
+  .posty-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .posty {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .posty h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .posty p {
+    margin: 0;
+  }
+  
+  .posty a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .posty a:hover {
+    color: #000;
+  }
+  
+  .for-profile-page {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-picture {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  /* Styling for the profile picture */
+  .profile-picture img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+  /* Styling for the form */
+  .profile-picture form {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .profile-picture input[type="file"] {
+    margin-right: 10px;
+  }
+
+  .profile-picture button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .profile-picture button[type="submit"]:hover {
+    background-color: #45a049;
+  }
+
+  /* TRIAL END */
+      
+    /* 
+   _____ _____ _____ _   _ _    _ _____             _   _ _____     _____ _____ _____ _   _ _____ _   _ 
+  / ____|_   _/ ____| \ | | |  | |  __ \      /\   | \ | |  __ \   / ____|_   _/ ____| \ | |_   _| \ | |
+ | (___   | || |  __|  \| | |  | | |__) |    /  \  |  \| | |  | | | (___   | || |  __|  \| | | | |  \| |
+  \___ \  | || | |_ | . ` | |  | |  ___/    / /\ \ | . ` | |  | |  \___ \  | || | |_ | . ` | | | | . ` |
+  ____) |_| || |__| | |\  | |__| | |       / ____ \| |\  | |__| |  ____) |_| || |__| | |\  |_| |_| |\  |
+ |_____/|_____\_____|_| \_|\____/|_|      /_/    \_\_| \_|_____/  |_____/|_____\_____|_| \_|_____|_| \_|
+                                                                                                        
+                                                                                                        
+    */
+
+
+    .sectionee {
+        padding: 2rem;
+        background-color: var(--secondary-background-color);
+        border-radius: 8px;
+      }
+      
+      .formulus {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+      }
+      
+      label {
+        font-size: var(--font-size-md);
+        color: var(--light-color-alt);
+      }
+      
+      input[type="text"],
+      input[type="email"],
+      input[type="password"],
+      input[type="file"] {
+        padding: 0.5rem;
+        border-radius: 4px;
+        border: 1px solid var(--light-color-alt);
+      }
+      
+      .group {
+        text-align: center;
+      }
+      
+      .button {
+        background-color: var(--primary-background-color);
+        color: var(--light-color-alt);
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.25s, color 0.25s;
+      }
+      
+      .button:hover {
+        background-color: var(--hover-light-color);
+        color: var(--hover-dark-color);
+      }
+      
+      /* Custom styles for the alert_message class */
+      .alert_message {
+        padding: 1rem;
+        background-color: #f44336;
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+      }
+      
+      /* Add more custom styles as needed */
+      
+      /* Additional custom styles for form elements */
+      /* For the sake of example, I'm providing some basic styles, but you can customize them further based on your design */
+      
+      #first_name,
+      #last_name,
+      #username,
+      #email,
+      #pass,
+      #pass2,
+      #picture {
+        width: 100%;
+      }
+      
+      #register {
+        width: 100%;
+      }
+      
       
     
+      /* Apply styles to the form elements */
+    .mainee {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+    
+      
+      label {
+        font-size: var(--font-size-md);
+        color: var(--light-color-alt);
+      }
+      
+      input[type="text"],
+      input[type="password"] {
+        padding: 0.5rem;
+        border-radius: 4px;
+        border: 1px solid var(--light-color-alt);
+      }
+      
+      .group {
+        text-align: center;
+      }
+      
+      .button {
+        background-color: var(--primary-background-color);
+        color: var(--light-color-alt);
+        padding: 0.5rem 1rem;
+        border-radius: 4px;
+        cursor: pointer;
+        transition: background-color 0.25s, color 0.25s;
+      }
+      
+      .button:hover {
+        background-color: var(--hover-light-color);
+        color: var(--hover-dark-color);
+      }
+      
+      /* Custom styles for the alert_message class */
+      .alert_message {
+        padding: 1rem;
+        background-color: #f44336;
+        color: white;
+        text-align: center;
+        border-radius: 4px;
+      }
+      
+      /* Add more custom styles as needed */
+      
+      /* Additional custom styles for form elements */
+      /* For the sake of example, I'm providing some basic styles, but you can customize them further based on your design */
+      
+      #usernamee,
+      #passwordd {
+        width: 100%;
+      }
+      
+      #login {
+        width: 100%;
+      }
