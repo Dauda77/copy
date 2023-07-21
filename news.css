@@ -1102,5 +1102,89 @@ body.light-theme{
       }
 
  
+
+      /* 
+  _____            __ _ _         _____  _____ _____ 
+ |  __ \          / _(_) |       / ____|/ ____/ ____|
+ | |__) | __ ___ | |_ _| | ___  | |    | (___| (___  
+ |  ___/ '__/ _ \|  _| | |/ _ \ | |     \___ \\___ \ 
+ | |   | | | (_) | | | | |  __/ | |____ ____) |___) |
+ |_|   |_|  \___/|_| |_|_|\___|  \_____|_____/_____/ 
+                                                     
+                                                     
+      */
+
+   
+  .container-profilee {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    top: 120px;
+  }
+  
+  .profilee-head {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .profilee-header {
+    margin-bottom: 20px;
+  }
+  
+
+  
+  .mainee {
+    padding-top: 20px;
+  }
+  .sect {
+    margin-bottom: 20px;
+  }
+  
+  .sect h2 {
+    font-size: 20px;
+    margin: 0 0 10px;
+  } */
+  
+  .post-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  
+  .post {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .post h3 {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+  
+  .post p {
+    margin: 0;
+  }
+  
+  .post a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .post a:hover {
+    color: #000;
+  }
+  
+  .for-profile-page {
+    align-items: center;
+    justify-content: center;
+  }
+  
+
+  
       
     
