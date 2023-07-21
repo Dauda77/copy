@@ -92,7 +92,7 @@ h2 {
     <header class="header" id="header">
 
       <nav class="navbar container">
-          <a href="home.html">
+          <a href="home.php">
               <h2 class="logo">SJTalkss</h2>
           </a>
 
@@ -102,19 +102,19 @@ h2 {
                       <a href="#" class="list-link current">Home</a>
                   </li>
                   <li class="list-item">
-                      <a href="categories.html" class="list-link">Categories</a>
+                      <a href="categories.php" class="list-link">Categories</a>
                   </li>
                   <li class="list-item">
-                      <a href="news.html" class="list-link">News</a>
+                      <a href="news.php" class="list-link">News</a>
                   </li>
                   <li class="list-item">
                       <a href="#" class="list-link">Membership</a>
                   </li>
                   <li class="list-item screen-lg-hidden">
-                      <a href="signing/sign-in.html" class="list-link">Sign in</a>
+                      <a href="signing/sign-in.php" class="list-link">Sign in</a>
                   </li>
                   <li class="list-item screen-lg-hidden">
-                      <a href="signing/sign-up.html" class="list-link">Sign up</a>
+                      <a href="signing/sign-up.php" class="list-link">Sign up</a>
                   </li>
               </ul>
            </div>
@@ -134,8 +134,8 @@ h2 {
                   <i class="ri-close-line close-menu-icon"></i>
               </button>
 
-              <a href="signing/sign-in.html" class="list-link screen-sm-hidden">Sign in</a>
-              <a href="signing/sign-up.html" class="btn sign-up-btn fancy-border screen-sm-hidden">
+              <a href="signing/sign-in.php" class="list-link screen-sm-hidden">Sign in</a>
+              <a href="signing/sign-up.php" class="btn sign-up-btn fancy-border screen-sm-hidden">
                   <span>Sign up</span>
               </a>
           </div>

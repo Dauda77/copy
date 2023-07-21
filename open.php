@@ -21,7 +21,7 @@
 </head>
 <body>
 
-    <!-- <a href="home.html"> -->
+    <!-- <a href="home.php"> -->
         <section class="heroo " id="hero">
            <div class="open-heroo-a">
            <h1 class="open-heroo-a-text "><span class="first-letter">W</span>elcome to</h1>

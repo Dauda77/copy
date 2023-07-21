@@ -21,17 +21,17 @@
     <header class="header" id="header">
 
         <nav class="navbar container">
-            <a href="./index.html">
+            <a href="./index.php">
                 <h2 class="logo">SJTalkss</h2>
             </a>
 
             <div class="menu" id="menu">
                 <ul class="list">
                     <li class="list-item">
-                        <a href="home.html" class="list-link">Home</a>
+                        <a href="home.php" class="list-link">Home</a>
                     </li>
                     <li class="list-item">
-                        <a href="categories.html" class="list-link current">Categories</a>
+                        <a href="categories.php" class="list-link current">Categories</a>
                     </li>
                     <li class="list-item">
                         <a href="#" class="list-link">News</a>
@@ -40,10 +40,10 @@
                         <a href="#" class="list-link">Membership</a>
                     </li>
                     <li class="list-item screen-lg-hidden">
-                        <a href="sign-in.html" class="list-link">Sign in</a>
+                        <a href="sign-in.php" class="list-link">Sign in</a>
                     </li>
                     <li class="list-item screen-lg-hidden">
-                        <a href="sign-up.html" class="list-link">Sign up</a>
+                        <a href="sign-up.php" class="list-link">Sign up</a>
                     </li>
                 </ul>
             </div>
@@ -63,8 +63,8 @@
                     <i class="ri-close-line close-menu-icon"></i>
                 </button>
 
-                <a href="sign-in.html" class="list-link screen-sm-hidden">Sign in</a>
-                <a href="sign-up.html" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                <a href="sign-in.php" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="sign-up.php" class="btn sign-up-btn fancy-border screen-sm-hidden">
                     <span>Sign up</span>
                 </a>
             </div>
@@ -106,7 +106,7 @@
       
     <section class="categories">
         <div class="category-container">
-            <a href="sports.html">
+            <a href="sports.php">
             <h1 class="category-title-a"><center>SPORTS</center></h1>
             <img src="imgs\footballpitch.jpg" alt="" class="category-image-a">
         </a>
@@ -118,28 +118,28 @@
         </div>
 
         <div class="category-container">
-            <a href="space.html">
+            <a href="space.php">
             <h1 class="category-title-c"><center>SPACE</center></h1>
             <img src="imgs\space.jpg" alt="" class="category-image-c">
             </a>
         </div>
 
         <div class="category-container">
-            <a href="food.html">
+            <a href="food.php">
             <h1 class="category-title-d"><center>FOOD</center></h1>
             <img src="imgs\foodB.jpg" alt="" class="category-image-d">
             </a>
         </div>
 
         <div class="category-container">
-            <a href="archi.html">
+            <a href="archi.php">
             <h1 class="category-title-d"><center>ARCHITECTURE</center></h1>
             <img src="imgs\buil1.jpg" alt="" class="category-image-d">
             </a>
         </div>
 
         <div class="category-container">
-            <a href="food.html">
+            <a href="food.php">
             <h1 class="category-title-d"><center>NATURE</center></h1>
             <img src="imgs\nature1.jpg" alt="" class="category-image-d">
             </a>
@@ -154,7 +154,7 @@
         <div class="footer-container container d-grid">
             
             <div class="company-data">
-                <a href="./index.html">
+                <a href="./index.php">
                     <h2 class="logo">SJTalkss</h2>
                 </a>
                 <p class="company-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.

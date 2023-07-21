@@ -14,36 +14,36 @@
      <!-- Custom styles -->
      <link rel="stylesheet" href="news.css">
 
-    <title>SPACE</title>
+    <title>ARCHITECTURE</title>
 </head>
 <body>
     <!-- Header -->
     <header class="header" id="header">
 
         <nav class="navbar container">
-            <a href="./index.html">
+            <a href="./index.php">
                 <h2 class="logo">SJTalkss</h2>
             </a>
 
             <div class="menu" id="menu">
                 <ul class="list">
                     <li class="list-item">
-                        <a href="home.html" class="list-link">Home</a>
+                        <a href="home.php" class="list-link">Home</a>
                     </li>
                     <li class="list-item">
-                        <a href="categories.html" class="list-link">Categories</a>
+                        <a href="categories.php" class="list-link">Categories</a>
                     </li>
                     <li class="list-item">
                         <a href="#" class="list-link current">News</a>
                     </li>
                     <li class="list-item">
-                        <a href="comment.html" class="list-link">Comments</a>
+                        <a href="comment.php" class="list-link">Comments</a>
                     </li>
                     <li class="list-item screen-lg-hidden">
-                        <a href="sign-in.html" class="list-link">Sign in</a>
+                        <a href="sign-in.php" class="list-link">Sign in</a>
                     </li>
                     <li class="list-item screen-lg-hidden">
-                        <a href="sign-up.html" class="list-link">Sign up</a>
+                        <a href="sign-up.php" class="list-link">Sign up</a>
                     </li>
                 </ul>
             </div>
@@ -63,8 +63,8 @@
                     <i class="ri-close-line close-menu-icon"></i>
                 </button>
 
-                <a href="sign-in.html" class="list-link screen-sm-hidden">Sign in</a>
-                <a href="sign-up.html" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                <a href="sign-in.php" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="sign-up.php" class="btn sign-up-btn fancy-border screen-sm-hidden">
                     <span>Sign up</span>
                 </a>
             </div>
@@ -99,7 +99,7 @@
     <section class="blog-post section-header-offset">
         <div class="blog-post-container container">
             <div class="blog-post-data">
-                <h3 class="title blog-post-title">SPACE</h3>
+                <h3 class="title blog-post-title">ARCHITECTURE</h3>
             </div>
         </div>
     </section>
@@ -112,15 +112,34 @@
             <div class="news-posts-grid-wrapper d-grid">
 
 
-                <a href="#" class="article d-grid">
+                <a href="archipost.php" class="article d-grid">
                     <div class="news-posts-article-image-wrapper">
-                        <img src="imgs\space.jpg" alt="" class="article-image">
+                        <img src="imgs\build2.jpg" alt="" class="article-image">
                     </div>
 
                     <div class="article-data-container">
 
                         <div class="article-data">
-                            <span>19 Mars 2023</span>
+                            <span>24 Avr 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+                <a href="archipost.php" class="article d-grid">
+                    <div class="news-posts-article-image-wrapper">
+                        <img src="imgs\build3.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>24 Avr 2023</span>
                             <span class="article-data-spacer"></span>
                             <span>3 Min read</span>
                         </div>
@@ -133,52 +152,13 @@
 
                 <a href="#" class="article d-grid">
                     <div class="news-posts-article-image-wrapper">
-                        <img src="imgs\SpaceA.jpg" alt="" class="article-image">
+                        <img src="imgs\build4.jpg" alt="" class="article-image">
                     </div>
 
                     <div class="article-data-container">
 
                         <div class="article-data">
-                            <span>19 Mars 2023</span>
-                            <span class="article-data-spacer"></span>
-                            <span>3 Min read</span>
-                        </div>
-
-                        <h3 class="title article-title">Sample article title</h3>
-                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
-
-                    </div>
-                </a>
-
-                <a href="#" class="article d-grid">
-                    <div class="news-posts-article-image-wrapper">
-                        <img src="imgs\SpaceB.jpg" alt="" class="article-image">
-                    </div>
-
-                    <div class="article-data-container">
-
-                        <div class="article-data">
-                            <span>19 Mars 2023</span>
-                            <span class="article-data-spacer"></span>
-                            <span>3 Min read</span>
-                        </div>
-
-                        <h3 class="title article-title">Sample article title</h3>
-                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
-
-                    </div>
-                </a>
-
-
-                <a href="#" class="article d-grid">
-                    <div class="news-posts-article-image-wrapper">
-                        <img src="imgs\SpaceC.jpg" alt="" class="article-image">
-                    </div>
-
-                    <div class="article-data-container">
-
-                        <div class="article-data">
-                            <span>19 Mars 2023</span>
+                            <span>24 Avr 2023</span>
                             <span class="article-data-spacer"></span>
                             <span>3 Min read</span>
                         </div>
@@ -192,32 +172,13 @@
 
                 <a href="#" class="article d-grid">
                     <div class="news-posts-article-image-wrapper">
-                        <img src="imgs\SpaceD.jpg" alt="" class="article-image">
+                        <img src="imgs\build5.jpg" alt="" class="article-image">
                     </div>
 
                     <div class="article-data-container">
 
                         <div class="article-data">
-                            <span>19 Mars 2023</span>
-                            <span class="article-data-spacer"></span>
-                            <span>3 Min read</span>
-                        </div>
-
-                        <h3 class="title article-title">Sample article title</h3>
-                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
-
-                    </div>
-                </a>
-
-                <a href="#" class="article d-grid">
-                    <div class="news-posts-article-image-wrapper">
-                        <img src="imgs\SpaceE.jpg" alt="" class="article-image">
-                    </div>
-
-                    <div class="article-data-container">
-
-                        <div class="article-data">
-                            <span>19 Mars 2023</span>
+                            <span>24 Avr 2023</span>
                             <span class="article-data-spacer"></span>
                             <span>3 Min read</span>
                         </div>
@@ -231,13 +192,32 @@
 
                 <a href="#" class="article d-grid">
                     <div class="news-posts-article-image-wrapper">
-                        <img src="imgs\SpaceF.jpg" alt="" class="article-image">
+                        <img src="imgs\build6.jpg" alt="" class="article-image">
                     </div>
 
                     <div class="article-data-container">
 
                         <div class="article-data">
-                            <span>19 Mars 2023</span>
+                            <span>24 Avr 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+                <a href="#" class="article d-grid">
+                    <div class="news-posts-article-image-wrapper">
+                        <img src="imgs\build7.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>24 Avr 2023</span>
                             <span class="article-data-spacer"></span>
                             <span>3 Min read</span>
                         </div>
@@ -251,13 +231,33 @@
 
                 <a href="#" class="article d-grid">
                     <div class="news-posts-article-image-wrapper">
-                        <img src="imgs\SpaceG.jpg" alt="" class="article-image">
+                        <img src="imgs\build8.jpg" alt="" class="article-image">
                     </div>
 
                     <div class="article-data-container">
 
                         <div class="article-data">
-                            <span>19 Mars 2023</span>
+                            <span>24 Avr 2023</span>
+                            <span class="article-data-spacer"></span>
+                            <span>3 Min read</span>
+                        </div>
+
+                        <h3 class="title article-title">Sample article title</h3>
+                        <p class="article-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique a tempore sapiente corporis, eaque fuga placeat odit voluptatibus.</p>
+
+                    </div>
+                </a>
+
+
+                <a href="#" class="article d-grid">
+                    <div class="news-posts-article-image-wrapper">
+                        <img src="imgs\build9.jpg" alt="" class="article-image">
+                    </div>
+
+                    <div class="article-data-container">
+
+                        <div class="article-data">
+                            <span>24 Avr 2023</span>
                             <span class="article-data-spacer"></span>
                             <span>3 Min read</span>
                         </div>
@@ -270,13 +270,13 @@
 
                 <a href="#" class="article d-grid">
                     <div class="news-posts-article-image-wrapper">
-                        <img src="imgs\SpaceH.jpg" alt="" class="article-image">
+                        <img src="imgs\build010.jpg" alt="" class="article-image">
                     </div>
 
                     <div class="article-data-container">
 
                         <div class="article-data">
-                            <span>19 Mars 2023</span>
+                            <span>24 Avr 2023</span>
                             <span class="article-data-spacer"></span>
                             <span>3 Min read</span>
                         </div>
@@ -289,13 +289,13 @@
 
                 <a href="#" class="article d-grid">
                     <div class="news-posts-article-image-wrapper">
-                        <img src="imgs\SpaceI.jpg" alt="" class="article-image">
+                        <img src="imgs\build011.jpg" alt="" class="article-image">
                     </div>
 
                     <div class="article-data-container">
 
                         <div class="article-data">
-                            <span>19 Mars 2023</span>
+                            <span>24 Avr 2023</span>
                             <span class="article-data-spacer"></span>
                             <span>3 Min read</span>
                         </div>
@@ -306,15 +306,15 @@
                     </div>
                 </a>
 
-                <a href="#" class="article d-grid">
+                <a href="archipost.php" class="article d-grid">
                     <div class="news-posts-article-image-wrapper">
-                        <img src="imgs\SpaceJ.jpg" alt="" class="article-image">
+                        <img src="imgs\build012.jpg" alt="" class="article-image">
                     </div>
 
                     <div class="article-data-container">
 
                         <div class="article-data">
-                            <span>19 Mars 2023</span>
+                            <span>24 Avr 2023</span>
                             <span class="article-data-spacer"></span>
                             <span>3 Min read</span>
                         </div>
@@ -324,6 +324,7 @@
 
                     </div>
                 </a>
+
 
             </div>
         </div>
@@ -335,7 +336,7 @@
         <div class="footer-container container d-grid">
             
             <div class="company-data">
-                <a href="home.html">
+                <a href="home.php">
                     <h2 class="logo">SJTalkss</h2>
                 </a>
                 <p class="company-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 

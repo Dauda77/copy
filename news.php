@@ -21,29 +21,29 @@
      <header class="header" id="header">
 
         <nav class="navbar container">
-            <a href="./index.html">
+            <a href="./index.php">
                 <h2 class="logo">SJTalkss</h2>
             </a>
 
             <div class="menu" id="menu">
                 <ul class="list">
                     <li class="list-item">
-                        <a href="home.html" class="list-link">Home</a>
+                        <a href="home.php" class="list-link">Home</a>
                     </li>
                     <li class="list-item">
-                        <a href="categories.html" class="list-link">Categories</a>
+                        <a href="categories.php" class="list-link">Categories</a>
                     </li>
                     <li class="list-item">
-                        <a href="news.html" class="list-link current">News</a>
+                        <a href="news.php" class="list-link current">News</a>
                     </li>
                     <li class="list-item">
-                        <a href="comment.html" class="list-link">Comments</a>
+                        <a href="comment.php" class="list-link">Comments</a>
                     </li>
                     <li class="list-item screen-lg-hidden">
-                        <a href="sign-in.html" class="list-link">Sign in</a>
+                        <a href="sign-in.php" class="list-link">Sign in</a>
                     </li>
                     <li class="list-item screen-lg-hidden">
-                        <a href="sign-up.html" class="list-link">Sign up</a>
+                        <a href="sign-up.php" class="list-link">Sign up</a>
                     </li>
                 </ul>
             </div>
@@ -63,8 +63,8 @@
                     <i class="ri-close-line close-menu-icon"></i>
                 </button>
 
-                <a href="sign-in.html" class="list-link screen-sm-hidden">Sign in</a>
-                <a href="sign-up.html" class="btn sign-up-btn fancy-border screen-sm-hidden">
+                <a href="sign-in.php" class="list-link screen-sm-hidden">Sign in</a>
+                <a href="sign-up.php" class="btn sign-up-btn fancy-border screen-sm-hidden">
                     <span>Sign up</span>
                 </a>
             </div>
@@ -112,7 +112,7 @@
             <div class="news-posts-grid-wrapper d-grid">
 
 
-                <a href="foodpost.html" class="article d-grid">
+                <a href="foodpost.php" class="article d-grid">
                     <div class="news-posts-article-image-wrapper">
                         <img src="imgs\nature.jpg" alt="" class="article-image">
                     </div>
@@ -131,7 +131,7 @@
                     </div>
                 </a>
 
-                <a href="archipost.html" class="article d-grid">
+                <a href="archipost.php" class="article d-grid">
                     <div class="news-posts-article-image-wrapper">
                         <img src="imgs\nature.jpg" alt="" class="article-image">
                     </div>
@@ -150,7 +150,7 @@
                     </div>
                 </a>
 
-                <a href="post.html" class="article d-grid">
+                <a href="post.php" class="article d-grid">
                     <div class="news-posts-article-image-wrapper">
                         <img src="imgs\nature.jpg" alt="" class="article-image">
                     </div>
@@ -400,7 +400,7 @@
                     </div>
                 </a>
 
-                <a href="archipost.html" class="article d-grid">
+                <a href="archipost.php" class="article d-grid">
                     <div class="news-posts-article-image-wrapper">
                         <img src="imgs\building.jpg" alt="" class="article-image">
                     </div>
@@ -420,7 +420,7 @@
                 </a>
 
 
-                <a href="foodpost.html" class="article d-grid">
+                <a href="foodpost.php" class="article d-grid">
                     <div class="news-posts-article-image-wrapper">
                         <img src="imgs\architecture.jpg" alt="" class="article-image">
                     </div>
@@ -440,7 +440,7 @@
                 </a>
 
 
-                <a href="post.html" class="article d-grid">
+                <a href="post.php" class="article d-grid">
                     <div class="news-posts-article-image-wrapper">
                         <img src="imgs\art.jpg" alt="" class="article-image">
                     </div>
@@ -469,7 +469,7 @@
         <div class="footer-container container d-grid">
             
             <div class="company-data">
-                <a href="home.html">
+                <a href="home.php">
                     <h2 class="logo">SJTalkss</h2>
                 </a>
                 <p class="company-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
